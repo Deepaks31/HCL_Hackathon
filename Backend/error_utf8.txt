@@ -1,0 +1,498 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.foodapp:backend >-------------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ backend ---
+[INFO] Deleting C:\Users\deepak\OneDrive\Desktop\Food Ordering Application\Backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 43 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[44,47] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[49,29] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[50,30] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[51,56] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[52,13] cannot find symbol
+  symbol:   method setRole(com.foodapp.backend.entity.Role)
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[53,13] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.Status)
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[61,47] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[66,29] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[67,30] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[68,56] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[69,13] cannot find symbol
+  symbol:   method setRole(com.foodapp.backend.entity.Role)
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[70,13] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.Status)
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[74,35] cannot find symbol
+  symbol:   method getRestaurantName()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[75,39] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[76,19] cannot find symbol
+  symbol:   method setOwner(com.foodapp.backend.entity.User)
+  location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[77,19] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.Status)
+  location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[82,36] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[83,21] cannot find symbol
+  symbol:   method setToken(java.lang.String)
+  location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[84,21] cannot find symbol
+  symbol:   method setVerified(boolean)
+  location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[87,48] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[93,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.foodapp.backend.dto.LoginRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[96,17] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[97,85] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[99,42] cannot find symbol
+  symbol:   method isVerified()
+  location: variable verify of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[102,21] cannot find symbol
+  symbol:   method getStatus()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[105,21] cannot find symbol
+  symbol:   method getStatus()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[111,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.foodapp.backend.dto.LoginRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[111,84] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.foodapp.backend.dto.LoginRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[115,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[115,38] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[119,17] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[119,49] cannot find symbol
+  symbol:   method getRestaurant()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[120,25] cannot find symbol
+  symbol:   method getRestaurant()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[122,85] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[122,62] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[130,25] cannot find symbol
+  symbol:   method isVerified()
+  location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[134,21] cannot find symbol
+  symbol:   method setVerified(boolean)
+  location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/JwtUtil.java:[38,20] cannot find symbol
+  symbol:   method parserBuilderBuilder()
+  location: class io.jsonwebtoken.Jwts
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[30,66] cannot find symbol
+  symbol:   method getRestaurantId()
+  location: variable dto of type com.foodapp.backend.dto.FoodItemDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[34,25] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.foodapp.backend.dto.FoodItemDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[35,26] cannot find symbol
+  symbol:   method getPrice()
+  location: variable dto of type com.foodapp.backend.dto.FoodItemDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[36,13] cannot find symbol
+  symbol:   method setRestaurant(com.foodapp.backend.entity.Restaurant)
+  location: variable item of type com.foodapp.backend.entity.FoodItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[33,48] cannot find symbol
+  symbol:   method getUserId()
+  location: variable dto of type com.foodapp.backend.dto.CartDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[35,60] cannot find symbol
+  symbol:   method getFoodItemId()
+  location: variable dto of type com.foodapp.backend.dto.CartDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[38,53] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[41,22] cannot find symbol
+  symbol:   method setUser(com.foodapp.backend.entity.User)
+  location: variable c of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[46,13] cannot find symbol
+  symbol:   method setCart(com.foodapp.backend.entity.Cart)
+  location: variable item of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[47,13] cannot find symbol
+  symbol:   method setFoodItem(com.foodapp.backend.entity.FoodItem)
+  location: variable item of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[48,29] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable dto of type com.foodapp.backend.dto.CartDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[50,13] cannot find symbol
+  symbol:   method getItems()
+  location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/CustomUserDetailsService.java:[28,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/CustomUserDetailsService.java:[29,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/CustomUserDetailsService.java:[30,80] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[31,13] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.Status)
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[34,37] cannot find symbol
+  symbol:   method getRestaurant()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[36,23] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.Status)
+  location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[41,51] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[49,13] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.Status)
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[52,37] cannot find symbol
+  symbol:   method getRestaurant()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[54,23] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.Status)
+  location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[58,51] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[32,48] cannot find symbol
+  symbol:   method getUserId()
+  location: variable dto of type com.foodapp.backend.dto.OrderDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[34,66] cannot find symbol
+  symbol:   method getRestaurantId()
+  location: variable dto of type com.foodapp.backend.dto.OrderDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[36,53] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[39,17] cannot find symbol
+  symbol:   method getItems()
+  location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[44,14] cannot find symbol
+  symbol:   method setUser(com.foodapp.backend.entity.User)
+  location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[45,14] cannot find symbol
+  symbol:   method setRestaurant(com.foodapp.backend.entity.Restaurant)
+  location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[46,14] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.OrderStatus)
+  location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[49,32] cannot find symbol
+  symbol:   method getItems()
+  location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[51,15] cannot find symbol
+  symbol:   method setOrder(com.foodapp.backend.entity.Order)
+  location: variable oi of type com.foodapp.backend.entity.OrderItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[52,30] cannot find symbol
+  symbol:   method getFoodItem()
+  location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[53,30] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[55,24] cannot find symbol
+  symbol:   method getFoodItem()
+  location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[55,54] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[57,14] cannot find symbol
+  symbol:   method setTotalAmount(double)
+  location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[61,13] cannot find symbol
+  symbol:   method getItems()
+  location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[70,14] cannot find symbol
+  symbol:   method setStatus(com.foodapp.backend.entity.OrderStatus)
+  location: variable order of type com.foodapp.backend.entity.Order
+[INFO] 77 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.822 s
+[INFO] Finished at: 2026-04-01T12:01:11+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[44,47] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[49,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[50,30] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[51,56] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[52,13] cannot find symbol
+[ERROR]   symbol:   method setRole(com.foodapp.backend.entity.Role)
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[53,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.Status)
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[61,47] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[66,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[67,30] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[68,56] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[69,13] cannot find symbol
+[ERROR]   symbol:   method setRole(com.foodapp.backend.entity.Role)
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[70,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.Status)
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[74,35] cannot find symbol
+[ERROR]   symbol:   method getRestaurantName()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[75,39] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.RegisterRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[76,19] cannot find symbol
+[ERROR]   symbol:   method setOwner(com.foodapp.backend.entity.User)
+[ERROR]   location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[77,19] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.Status)
+[ERROR]   location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[82,36] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[83,21] cannot find symbol
+[ERROR]   symbol:   method setToken(java.lang.String)
+[ERROR]   location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[84,21] cannot find symbol
+[ERROR]   symbol:   method setVerified(boolean)
+[ERROR]   location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[87,48] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[93,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.LoginRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[96,17] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[97,85] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[99,42] cannot find symbol
+[ERROR]   symbol:   method isVerified()
+[ERROR]   location: variable verify of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[102,21] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[105,21] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[111,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.LoginRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[111,84] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.foodapp.backend.dto.LoginRequest
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[115,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[115,38] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[119,17] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[119,49] cannot find symbol
+[ERROR]   symbol:   method getRestaurant()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[120,25] cannot find symbol
+[ERROR]   symbol:   method getRestaurant()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[122,85] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[122,62] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[130,25] cannot find symbol
+[ERROR]   symbol:   method isVerified()
+[ERROR]   location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AuthService.java:[134,21] cannot find symbol
+[ERROR]   symbol:   method setVerified(boolean)
+[ERROR]   location: variable verification of type com.foodapp.backend.entity.EmailVerification
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/JwtUtil.java:[38,20] cannot find symbol
+[ERROR]   symbol:   method parserBuilderBuilder()
+[ERROR]   location: class io.jsonwebtoken.Jwts
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[30,66] cannot find symbol
+[ERROR]   symbol:   method getRestaurantId()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.FoodItemDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[34,25] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.FoodItemDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[35,26] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.FoodItemDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OwnerService.java:[36,13] cannot find symbol
+[ERROR]   symbol:   method setRestaurant(com.foodapp.backend.entity.Restaurant)
+[ERROR]   location: variable item of type com.foodapp.backend.entity.FoodItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[33,48] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.CartDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[35,60] cannot find symbol
+[ERROR]   symbol:   method getFoodItemId()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.CartDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[38,53] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[41,22] cannot find symbol
+[ERROR]   symbol:   method setUser(com.foodapp.backend.entity.User)
+[ERROR]   location: variable c of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[46,13] cannot find symbol
+[ERROR]   symbol:   method setCart(com.foodapp.backend.entity.Cart)
+[ERROR]   location: variable item of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[47,13] cannot find symbol
+[ERROR]   symbol:   method setFoodItem(com.foodapp.backend.entity.FoodItem)
+[ERROR]   location: variable item of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[48,29] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.CartDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/CartService.java:[50,13] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/CustomUserDetailsService.java:[28,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/CustomUserDetailsService.java:[29,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/security/CustomUserDetailsService.java:[30,80] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[31,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.Status)
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[34,37] cannot find symbol
+[ERROR]   symbol:   method getRestaurant()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[36,23] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.Status)
+[ERROR]   location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[41,51] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[49,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.Status)
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[52,37] cannot find symbol
+[ERROR]   symbol:   method getRestaurant()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[54,23] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.Status)
+[ERROR]   location: variable restaurant of type com.foodapp.backend.entity.Restaurant
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/AdminService.java:[58,51] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[32,48] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.OrderDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[34,66] cannot find symbol
+[ERROR]   symbol:   method getRestaurantId()
+[ERROR]   location: variable dto of type com.foodapp.backend.dto.OrderDto
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[36,53] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.foodapp.backend.entity.User
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[39,17] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[44,14] cannot find symbol
+[ERROR]   symbol:   method setUser(com.foodapp.backend.entity.User)
+[ERROR]   location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[45,14] cannot find symbol
+[ERROR]   symbol:   method setRestaurant(com.foodapp.backend.entity.Restaurant)
+[ERROR]   location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[46,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.OrderStatus)
+[ERROR]   location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[49,32] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[51,15] cannot find symbol
+[ERROR]   symbol:   method setOrder(com.foodapp.backend.entity.Order)
+[ERROR]   location: variable oi of type com.foodapp.backend.entity.OrderItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[52,30] cannot find symbol
+[ERROR]   symbol:   method getFoodItem()
+[ERROR]   location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[53,30] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[55,24] cannot find symbol
+[ERROR]   symbol:   method getFoodItem()
+[ERROR]   location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[55,54] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable ci of type com.foodapp.backend.entity.CartItem
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[57,14] cannot find symbol
+[ERROR]   symbol:   method setTotalAmount(double)
+[ERROR]   location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[61,13] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable cart of type com.foodapp.backend.entity.Cart
+[ERROR] /C:/Users/deepak/OneDrive/Desktop/Food Ordering Application/Backend/src/main/java/com/foodapp/backend/service/OrderService.java:[70,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.foodapp.backend.entity.OrderStatus)
+[ERROR]   location: variable order of type com.foodapp.backend.entity.Order
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
