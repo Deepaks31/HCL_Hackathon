@@ -29,13 +29,6 @@ A Full-stack Food Ordering Application with an advanced Owner-Admin approval wor
 3. Run `npm run dev` to start the Vite server.
 4. Access the web app at `http://localhost:5173`.
 
-### Default Access
-- **Admin Setup:** Since there is no default Admin created from UI, insert an admin manually into your database after starting the backend:
-  ```sql
-  INSERT INTO users (name, email, password, role, status) VALUES ('Super Admin', 'admin@foodapp.com', '$2a$10$wN2G7bBxO1Y3iXzLpHbHeO5D0NOrA0j/K/1e8K3z2w6xY1V0H0YpK', 'ADMIN', 'APPROVED');
-  ```
-  *(The hash corresponds to the password `password`)*
-
 - Try registering as an Owner across the `/register-owner` UI page.
 - Check the backend console to click the verification link simulating the email.
 - Login as Admin at `/` to approve the owner.
